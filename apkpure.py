@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 # ApkPure Downloader
-# Coded by Khairul Syabana
-# Source: github.com/hekelpro
+# Coded FR13NDS
+# Source: github.com/FR13NDS666
 
 try: import bs4
 except ImportError: os.system('python3 -m pip install bs4')
@@ -13,7 +13,7 @@ except ImportError: os.system('python2 -m pip install tqdm')
 import os
 from bs4 import BeautifulSoup as sabuncantik
 
-logo = '         ╔═╗╔═╗╦╔═   ╔═╗╦ ╦╦═╗╔═╗\n         ╠═╣╠═╝╠╩╗───╠═╝║ ║╠╦╝║╣\n         ╩ ╩╩  ╩ ╩   ╩  ╚═╝╩╚═╚═╝\n     +-------------------------------+\n       Author : Khairul Syabana\n       Github : github.com/xSODx11\n     +-------------------------------+'
+logo = '         ╔═╗╔═╗╦╔═   ╔═╗╦ ╦╦═╗╔═╗\n         ╠═╣╠═╝╠╩╗───╠═╝║ ║╠╦╝║╣\n         ╩ ╩╩  ╩ ╩   ╩  ╚═╝╩╚═╚═╝\n     +-------------------------------+\n       Author : FR13NDS\n       Github : github.com/FR13NDS666\n     +-------------------------------+'
 headers = {'User-Agent':'Mozilla/5.0 (Linux; Android 6.0.1; SM-G532G Build/MMB29T; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/55.0.2883.91 Mobile Safari/537.36'}
 
 def download(url, out):
