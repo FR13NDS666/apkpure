@@ -3,6 +3,7 @@ ApkPure Downloader
 
 ![ScreenShot](https://github.com/xSODx11/apkpure/blob/master/Screenshot_20200824-090644.png)
 
+# install
 ```
 $ pkg install git
 $ pkg install python
